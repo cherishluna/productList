@@ -1,0 +1,335 @@
+{
+	"respCode": 0,
+	"respMsg": "产品投保属性查询成功",
+	"data": {
+		"transNo": "2017000001",
+		"partnerId": 1002726,
+		"caseCode": "QX000000127424",
+		"insureAttribute": {
+			"productName": "紫霞保女性专属重大疾病保险",
+			"state": 1,
+			"companyName": "国华人寿保险股份有限公司",
+			"calculateType": 0,
+			"minPeople": 1,
+			"maxPeople": 1,
+			"beneficiaryType": 1,
+			"firstBeneficiaryLimit": 0,
+			"secondBeneficiaryLimit": 0,
+			"observationPeriod": 90,
+			"periodHesitation": 15,
+			"insureTime": 3,
+			"insureTimePrecision": 1,
+			"nextDayDeadline": "23:45",
+			"insuranceTime": 0,
+			"insureIncludeBirthday": 1,
+			"insuredAgeCalculation": 2,
+			"insureDeclare": "<p>投保时，本投保人已就该产品的保障内容以及保险金额向被保险人进行了明确说明，并征得其同意。</p><p>本投保人授权深圳市慧择保险经纪有限公司作为本人的保险经纪人，并委托深圳市慧择保险经纪有限公司全权代为办理保险相关事宜。</p><p>本投保人兹声明上述各项内容填写属实，并知道如果投保信息不真实，保险公司将有权拒赔，一切后果由本人承担。</p><p>本投保人已完整阅读本产品投保须知、详细条款[<a href=\"#ProductClauseUrl#\" target=\"_blank\">马上阅读条款</a>]，尤其是保障责任、免除责任、犹豫期、费用扣除、退保、保险单现金价值、投保人、被保险人义务的内容等各重要事项。本投保人特此同意接受该条款及投保须知之全部内容，同意并授权投保须知和银行授权须知。</p><p>本投保人已明确并接受本计划的<a href=\"http://activities.huize.com/2013insco/guohuarenshou.shtml \">承保机构、承保、保全变更、退保和理赔办理方式及理赔金支付方式。</a></p><p>本投保人已明确了解保该险合同的成立、生效是以保险公司出具保单为准，确认非以支付保费为保险合同的成立要件。</p><p>根据《中华人民共和国合同法》第十一条规定，数据电文是合法的合同表现形式。本人接受保险公司在慧择保险提供的电子保单作为本投保书成立生效的合法有效凭证，具有完全证据效力。</p>",
+			"jobGrade": "1,2,3,4",
+			"destinationSelectOne": 0,
+			"smallLogoImg": "http://files.huizecdn.com/file1/M00/68/57/wKgls1lRzrWAe55eAAAcyCeP3Bk423.png",
+			"bigLogoImg": "http://files.huizecdn.com/file1/M00/68/57/wKgls1lRzqaAGq2HAABNMGf0Ssw490.png",
+			"healthWebId": 353,
+			"isForcePay": 2,
+			"isHzOwner": 0,
+			"attrModules": [
+				{
+					"moduleId": 10,
+					"name": "投保人信息",
+					"remark": "投保人是指与保险公司订立合同、负有支付保险费义务的人，即办理保险并支付保险费的人。",
+					"productAttributes": [
+						{
+							"name": "姓名",
+							"apiName": "cName",
+							"type": 3,
+							"regex": "^[\\u3400-\\u9fa5A-Za-z]+[\\s·/.,\\(\\（\\)\\）\\u3400-\\u9fa5A-Za-z]*[\\u3400-\\u9fa5A-Za-z\\）\\)]+$",
+							"defaultRemind": "请填写您的真实姓名,应与投保有效证件相符,以便投保及理赔",
+							"errorRemind": "真实姓名只能为汉字或英文字符,且至少两个字",
+							"required": 1
+						},
+						{
+							"name": "证件类型",
+							"apiName": "cardType",
+							"type": 0,
+							"required": 1,
+							"attributeValues": [
+								{
+									"value": "身份证",
+									"controlValue": "1",
+									"regex": "^\\d{18}$|^\\d{17}[Xx\\d]$"
+								}
+							]
+						},
+						{
+							"name": "证件号码",
+							"apiName": "cardCode",
+							"type": 3,
+							"defaultRemind": "请准确填写您有效的证件号码",
+							"errorRemind": "证件号码校验失败：不是有效的证件号码，请核对后重新确认",
+							"required": 1
+						},
+						{
+							"name": "出生日期",
+							"apiName": "birthday",
+							"type": 1,
+							"required": 1
+						},
+						{
+							"name": "性别",
+							"apiName": "sex",
+							"type": 9,
+							"required": 1,
+							"attributeValues": [
+								{
+									"value": "男",
+									"controlValue": "1"
+								},
+								{
+									"value": "女",
+									"controlValue": "0"
+								}
+							]
+						},
+						{
+							"name": "居住省市",
+							"apiName": "provCityId",
+							"type": 4,
+							"required": 1
+						},
+						{
+							"name": "联系地址",
+							"apiName": "contactAddress",
+							"type": 3,
+							"regex": "^[\\u4e00-\\u9fa5 \\w-]{10,}$",
+							"defaultRemind": "请尽量详细地址到具体门牌号,以便投保和理赔",
+							"required": 1
+						},
+						{
+							"name": "手机号码",
+							"apiName": "mobile",
+							"type": 3,
+							"regex": "^(13|14|15|17|18|16|19)\\d{9}$|^950\\d{9,15}$",
+							"defaultRemind": "建议填写您的手机号码,以便接收保单信息",
+							"errorRemind": "请填写正确的手机号码",
+							"required": 1
+						},
+						{
+							"name": "电子邮箱",
+							"apiName": "email",
+							"type": 3,
+							"regex": "^[\\w\\u4e00-\\u9fa5]+([-+.][\\w\\u4e00-\\u9fa5]+)*@[\\w\\u4e00-\\u9fa5]+([-.][\\w\\u4e00-\\u9fa5]+)*\\.[A-Za-z]+([-.][\\w\\u4e00-\\u9fa5]+)*$",
+							"defaultRemind": "请填写真实邮箱,以便接收电子保单或承保确认函",
+							"errorRemind": "电子邮箱格式不正确,格式参考: hzins@huize.com",
+							"required": 1
+						}
+					]
+				},
+				{
+					"moduleId": 20,
+					"name": "被保险人信息",
+					"remark": "                         被保险人,在财产保险中,须是受保障财产的所有人或者是财产的经营管理人或者是与财产有直接利害关系的人,财产损失时具有请求保险公司赔偿的人;在人身保险中,就是以其生命或身体为保险标的,并以其生存、死亡、疾病和伤害为保险事故的人,也就是保险的对象。                     ",
+					"productAttributes": [
+						{
+							"name": "姓名",
+							"apiName": "cName",
+							"type": 3,
+							"regex": "^[\\u3400-\\u9fa5A-Za-z]+[\\s·/.,\\(\\（\\)\\）\\u3400-\\u9fa5A-Za-z]*[\\u3400-\\u9fa5A-Za-z\\）\\)]+$",
+							"defaultRemind": "请填写您的真实姓名,应与投保有效证件相符,以便投保及理赔",
+							"errorRemind": "真实姓名只能为汉字或英文字符,且至少两个字",
+							"required": 1
+						},
+						{
+							"name": "我是被保险人的",
+							"apiName": "relationId",
+							"type": 0,
+							"required": 1,
+							"attributeValues": [
+								{
+									"value": "本人",
+									"controlValue": "1"
+								},
+								{
+									"value": "丈夫",
+									"controlValue": "3"
+								},
+								{
+									"value": "儿子",
+									"controlValue": "4"
+								},
+								{
+									"value": "女儿",
+									"controlValue": "5"
+								},
+								{
+									"value": "父亲",
+									"controlValue": "6"
+								},
+								{
+									"value": "母亲",
+									"controlValue": "7"
+								}
+							]
+						},
+						{
+							"name": "证件类型",
+							"apiName": "cardType",
+							"type": 0,
+							"required": 1,
+							"attributeValues": [
+								{
+									"value": "身份证",
+									"controlValue": "1",
+									"regex": "^\\d{18}$|^\\d{17}[Xx\\d]$"
+								}
+							]
+						},
+						{
+							"name": "证件号码",
+							"apiName": "cardCode",
+							"type": 3,
+							"defaultRemind": "请准确填写您有效的证件号码",
+							"errorRemind": "证件号码校验失败：不是有效的证件号码，请核对后重新确认",
+							"required": 1
+						},
+						{
+							"name": "出生日期",
+							"apiName": "birthday",
+							"type": 1,
+							"required": 1
+						},
+						{
+							"name": "性别",
+							"apiName": "sex",
+							"type": 9,
+							"required": 1,
+							"attributeValues": [
+								{
+									"value": "女",
+									"controlValue": "0"
+								}
+							]
+						},
+						{
+							"name": "手机号码",
+							"apiName": "mobile",
+							"type": 3,
+							"regex": "^(13|14|15|17|18|16|19)\\d{9}$|^950\\d{9,15}$",
+							"defaultRemind": "建议填写您的手机号码,以便接收保单信息",
+							"errorRemind": "请填写正确的手机号码",
+							"required": 0
+						}
+					]
+				},
+				{
+					"moduleId": 30,
+					"name": "受益人信息",
+					"remark": "                         受益人是指人身保险合同中由被保险人或投保人指定的享有保险金请求权的人。因网上投保受益人的指定无法得到被保险人的书面确认，所以一般默认法定继承人作为身故受益人。法定继承人是指法律直接规定的可以依法继承被继承人遗产的公民。"
+				},
+				{
+					"moduleId": 105,
+					"name": "代扣缴费信息",
+					"productAttributes": [
+						{
+							"name": "开户银行",
+							"apiName": "withholdBank",
+							"type": 0,
+							"required": 1,
+							"attributeValues": [
+								{
+									"value": "建设银行",
+									"controlValue": "2"
+								},
+								{
+									"value": "邮储银行",
+									"controlValue": "3"
+								},
+								{
+									"value": "农业银行",
+									"controlValue": "4"
+								},
+								{
+									"value": "兴业银行",
+									"controlValue": "7"
+								},
+								{
+									"value": "中国银行",
+									"controlValue": "8"
+								},
+								{
+									"value": "中信银行",
+									"controlValue": "9"
+								},
+								{
+									"value": "交通银行",
+									"controlValue": "10"
+								},
+								{
+									"value": "平安银行",
+									"controlValue": "11"
+								},
+								{
+									"value": "光大银行",
+									"controlValue": "12"
+								}
+							]
+						},
+						{
+							"name": "持卡人",
+							"apiName": "withholdCardholder",
+							"type": 3,
+							"regex": "^[\\u3400-\\u9fa5A-Za-z]+[\\s·/.,\\(\\（\\)\\）\\u3400-\\u9fa5A-Za-z]*[\\u3400-\\u9fa5A-Za-z\\）\\)]+$",
+							"defaultRemind": "授权续费银行只支持储蓄卡，且帐户户名须为投保人本人",
+							"errorRemind": "姓名只能由2-50个字组成，支持中英文。",
+							"required": 1
+						},
+						{
+							"name": "银行账号",
+							"apiName": "withholdAccount",
+							"type": 3,
+							"regex": "^[\\d]{10,30}$",
+							"defaultRemind": "请填写开卡信息与投保人姓名,证件号码一致的账号,只支持储蓄卡。",
+							"errorRemind": "银行账号为16位以上数字,不能包含空格或其他符号",
+							"required": 1
+						}
+					]
+				},
+				{
+					"moduleId": 101,
+					"name": "紧急联系人",
+					"remark": "请填写紧急联系人信息，以便其在被保险人出险时可以及时报案，紧急联系人不同于法定继承人。",
+					"productAttributes": [
+						{
+							"name": "紧急联系人姓名",
+							"apiName": "urgencyContact",
+							"type": 3,
+							"regex": "^[\\u3400-\\u9fa5A-Za-z]+[\\s·/.,\\(\\（\\)\\）\\u3400-\\u9fa5A-Za-z]*[\\u3400-\\u9fa5A-Za-z\\）\\)]+$",
+							"defaultRemind": "请填写真实姓名",
+							"errorRemind": "姓名只能由2-50个字组成，支持中英文。",
+							"required": 0
+						},
+						{
+							"name": "紧急联系人手机号",
+							"apiName": "urgencyContactMobile",
+							"type": 3,
+							"regex": "^\\d{10,20}$",
+							"defaultRemind": "请输入有效的手机号码,便于联系。",
+							"errorRemind": "请填写正确的手机号码",
+							"required": 0
+						}
+					]
+				},
+				{
+					"moduleId": 102,
+					"name": "选择起保日期",
+					"productAttributes": [
+						{
+							"name": "起保日期",
+							"apiName": "startDate",
+							"type": 1,
+							"required": 1
+						}
+					]
+				}
+			]
+		}
+	}
+}

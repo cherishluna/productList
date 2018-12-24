@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>产品列表</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <style type="text/css">
+        *{margin: 0;padding: 0;list-style: none;text-decoration: none;font-size: 14px;color: #333;}
+        [v-clock] { display: none;}
+        .productList{position: relative;border-bottom: solid 1px #ccc;padding: 10px;display: block;}
+        .productList span{position: absolute;top: 10px;right: 10px;color: orange;}
+        .m-loading { display: none; margin: 20px 0; text-align: center;}
+    </style>
+</head>
+<body>
+    <div id="productList" v-clock>
+        <a class="productList" v-for="item in products" href="productDetails.html">
+            <ul>
+                <li>编号：{{item.caseCode}}</li>
+                <li>公司名称：{{item.companyName}}</li>
+                <li>保险名称：{{item.prodName}}</li>
+            </ul>
+            <span>{{item.planName}}</span>
+        </a>
+        <div class="m-loading">{{loading_txt}}</div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/vue.min.js"></script>
+    <script>
+        var vm = new Vue({
+            el: '#productList',
+            data: {
+                page: 1,
+                limit: 20,
+                timer: 500,
+                loading_txt: '加载中...',
+                products: []
+            },
+            created: function () {
+                this.getProducts();
+            },
+            methods: {
+                getProducts: function() {
+					$.getJSON('json/products.json', function(res){
+                        if (res.respCode == 0) {
+                            let offset = (vm.page - 1) * vm.limit;
+                            let temp   = [];
+                            for (let i = offset; i < vm.limit*vm.page; i++) {
+                                if (typeof(res.data.products[i]) !== 'undefined') {
+                                    temp.push(res.data.products[i]);
+                                }
+                            }
+                            if (temp.length > 0) {
+						        vm.products = vm.products.concat(temp);
+                            } else {
+                                vm.loading_txt = '暂无更多内容';
+                            }
+                        }
+					});
+                }
+            }
+        });
+        
+        $(function(){
+            $(window).scroll(function(e){
+                let scrollTop = $(this).scrollTop();     // 滚动高度
+                let documentH = $(document).height();    // 文档区域高度
+                let windowH   = $(window).height();      // 可见区域高度
+                if (scrollTop + windowH >= documentH) {
+                    vm.page++;
+                    $('.m-loading').show();
+                    setTimeout(function(){
+                        vm.getProducts();
+                    }, vm.timer);
+                    
+                }
+            })
+        });
+    </script>
+</body>
+</html>

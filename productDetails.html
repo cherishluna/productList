@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>产品详情</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <style type="text/css">
+        *{margin: 0;padding: 0;list-style: none;font-size: 14px;text-decoration: none;}
+        [v-clock] { display: none;}
+        .clearfix:after{visibility: hidden;display: block;font-size: 0;content: '';clear: both;height: 0;}
+        .productDetail{padding: 10px;}
+        .productDetail img{float: left;width: 30%;}
+        .productDetail label{float: left;font-size: 16px;padding: 8px 0 0 10px;}
+        .productContent{line-height: 24px;}
+        .productContent strong{font-size: 16px;color: orange;}
+        .submit{background-color: #00a8f7;color: #fff;display: block;width: 100px;line-height: 30px;text-align: center;}
+    </style>
+</head>
+<body>
+    <div id="productDetails" v-clock>
+        <div class="productDetail">
+            <div class="productTitle clearfix">
+                <img :src="mobileLogo">
+                <label>{{companyCnName}}</label>
+            </div>
+            <a href="/productInsuredAttr.html" class="submit">立即投保</a>
+            <div class="productContent">
+                <strong>保障项目：</strong>
+                <ul v-for="item in protectItems">
+                    <li>{{item.name}}({{item.defaultValue}})</li>
+                    <li v-html="item.description"></li>
+                </ul>
+                <strong>投保须知：</strong>
+                <div v-html="tips" style="word-break: break-all;"></div>
+                <strong>拥有的权利：</strong>
+                <ul v-for="item in droits">
+                    <li>{{item.name}}</li>
+                    <li>{{item.description}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/vue.min.js"></script>
+    <script>
+        var vm = new Vue({
+            el: '#productDetails',
+            data: {
+                protectItems: [],
+                tips: '',
+                mobileLogo: '',
+                companyCnName: '',
+                droits: []
+            },
+            created: function () {
+                this.getProducts();
+            },
+            mounted: function () {
+
+            },
+            methods: {
+                getProducts: function() {
+                    $.ajax({
+                        url: "json/productDetail.json",
+                        dataType: "json",
+                        success: function(res){
+                            console.log(res.respMsg)
+                            vm.protectItems = res.data.protectItems;
+                            vm.tips = res.data.tips;
+                            vm.mobileLogo = res.data.mobileLogo;
+                            vm.companyCnName = res.data.companyCnName;
+                            vm.droits = res.data.droits;
+                        }
+                    })
+                }
+            }
+        })
+    </script>
+</body>
+</html>

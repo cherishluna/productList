@@ -1,0 +1,1486 @@
+{
+	"respCode": 0,
+	"respMsg": "产品列表查询成功",
+	"data": {
+		"transNo": "HZ100272620181206214918671",
+		"partnerId": 1002726,
+		"products": [
+			{
+				"prodName": "齐欣云服演示-太平福享金生年金保险",
+				"caseCode": "QX000000127080",
+				"companyName": "太平人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2148,
+				"secondCategory": 2154
+			},
+			{
+				"prodName": "百万乘祥两全保险",
+				"caseCode": "QX000000101503",
+				"companyName": "陆家嘴国泰人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2006,
+				"secondCategory": 2032
+			},
+			{
+				"prodName": "爱康保重大疾病保险",
+				"caseCode": "QX000321123278",
+				"companyName": "长生人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "美亚“万国游踪”境外旅行保障计划 –  申根版",
+				"caseCode": "QX000000002655",
+				"companyName": "美亚保险",
+				"planName": "申根无忧计划",
+				"offShelf": 0,
+				"fristCategory": 2001,
+				"secondCategory": 2020
+			},
+			{
+				"prodName": "美亚“万国游踪”境外旅行保障计划 –  申根版",
+				"caseCode": "QX000000002656",
+				"companyName": "美亚保险",
+				"planName": "申根完美计划",
+				"offShelf": 0,
+				"fristCategory": 2001,
+				"secondCategory": 2020
+			},
+			{
+				"prodName": "紫霞保女性专属重大疾病保险",
+				"caseCode": "QX000000127424",
+				"companyName": "国华人寿",
+				"planName": "计划一",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "盖世英雄男性专属重大疾病保险",
+				"caseCode": "QX000000127432",
+				"companyName": "国华人寿",
+				"planName": "计划四",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "“学习无忧”疾病医疗学平险",
+				"caseCode": "QX000000001899",
+				"companyName": "太平洋产险",
+				"planName": "计划一",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "“学习无忧”疾病医疗学平险",
+				"caseCode": "QX000000001900",
+				"companyName": "太平洋产险",
+				"planName": "计划二",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "盖世英雄男性专属重大疾病保险",
+				"caseCode": "QX000000127429",
+				"companyName": "国华人寿",
+				"planName": "计划一",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "金刚保长期意外伤害保险",
+				"caseCode": "QX000000127946",
+				"companyName": "昆仑健康",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "太平福享金生年金保险",
+				"caseCode": "QX000000101446",
+				"companyName": "太平人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2006,
+				"secondCategory": 2032
+			},
+			{
+				"prodName": "严重疾病海外保VIP版",
+				"caseCode": "QX000000127980",
+				"companyName": "平安健康",
+				"planName": "无社会医疗保险或公费医疗",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "紫霞保女性专属重大疾病保险",
+				"caseCode": "QX000000127428",
+				"companyName": "国华人寿",
+				"planName": "计划五",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "长青树重大疾病保险",
+				"caseCode": "QX000000002717",
+				"companyName": "安邦人寿",
+				"planName": "15年交",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "苏黎世中国“百万人生”人身意外伤害保险",
+				"caseCode": "QX000000001974",
+				"companyName": "苏黎世产险",
+				"planName": "计划B",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "美亚“万国游踪”境外旅行保障计划 –  全球版",
+				"caseCode": "QX000000002653",
+				"companyName": "美亚保险",
+				"planName": "全球探索计划",
+				"offShelf": 0,
+				"fristCategory": 2001,
+				"secondCategory": 2020
+			},
+			{
+				"prodName": "臻爱医疗保险（2018版）",
+				"caseCode": "QX000000127375",
+				"companyName": "安联财险",
+				"planName": "标准计划",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "珍爱未来B款少儿教育年金保险产品计划",
+				"caseCode": "QX000000101270",
+				"companyName": "招商信诺",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2006,
+				"secondCategory": 2032
+			},
+			{
+				"prodName": "“年年无忧”综合意外险",
+				"caseCode": "QX000000002524",
+				"companyName": "华泰财险",
+				"planName": "黄金计划",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "少儿住院宝（续保版）",
+				"caseCode": "QX000000127951",
+				"companyName": "泰康在线",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "成人住院宝（续保版）",
+				"caseCode": "QX000000127948",
+				"companyName": "泰康在线",
+				"planName": "计划一",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "大金刚全年综合意外保障计划",
+				"caseCode": "QX000000127132",
+				"companyName": "上海人寿",
+				"planName": "尊享款",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "零零医全能保",
+				"caseCode": "QX000000101457",
+				"companyName": "泰康在线",
+				"planName": "方案一",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "爱我宝贝少儿白血病保险",
+				"caseCode": "QX000000127330",
+				"companyName": "信美相互",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "健康一生重大疾病保险A款",
+				"caseCode": "QX000000002566",
+				"companyName": "弘康人寿",
+				"planName": "附加轻症B款疾病保险",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "住院宝保障计划",
+				"caseCode": "QX000000127624",
+				"companyName": "安联财险",
+				"planName": "计划二",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "住院无忧保障计划",
+				"caseCode": "QX000000101317",
+				"companyName": "易安保险",
+				"planName": "高龄尊享计划",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "守护e家（夫妻版）定期寿险",
+				"caseCode": "QX000000127865",
+				"companyName": "华贵人寿",
+				"planName": "保期30年",
+				"offShelf": 0,
+				"fristCategory": 2006,
+				"secondCategory": 2029
+			},
+			{
+				"prodName": "太平康爱卫士老年恶性肿瘤疾病保险",
+				"caseCode": "QX000000002759",
+				"companyName": "太平人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "苏黎世中国“百万人生”人身意外伤害保险",
+				"caseCode": "QX000000001976",
+				"companyName": "苏黎世产险",
+				"planName": "计划C",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "紫霞保女性专属重大疾病保险",
+				"caseCode": "QX000000127425",
+				"companyName": "国华人寿",
+				"planName": "计划二",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "少儿白血病专项保障保险",
+				"caseCode": "QX000000002626",
+				"companyName": "易安保险",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2026
+			},
+			{
+				"prodName": "综合意外险",
+				"caseCode": "QX000000002355",
+				"companyName": "泰康在线",
+				"planName": "计划二",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "“守护者”疫苗无忧险",
+				"caseCode": "QX000000127631",
+				"companyName": "易安保险",
+				"planName": "方案三",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2026
+			},
+			{
+				"prodName": "成人住院宝（2018版）",
+				"caseCode": "QX000000127109",
+				"companyName": "泰康在线",
+				"planName": "计划一",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "零零医全能保",
+				"caseCode": "QX000000101458",
+				"companyName": "泰康在线",
+				"planName": "方案二",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "“年年无忧”综合意外险",
+				"caseCode": "QX000000002525",
+				"companyName": "华泰财险",
+				"planName": "钻石计划",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "百万玫瑰意外保障计划",
+				"caseCode": "QX000000127342",
+				"companyName": "安联财险",
+				"planName": "计划一",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "延年防癌疾病保险",
+				"caseCode": "QX000000002620",
+				"companyName": "和谐健康",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "吃货无忧险",
+				"caseCode": "QX000000002215",
+				"companyName": "华安保险",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2026
+			},
+			{
+				"prodName": "住院宝保障计划",
+				"caseCode": "QX000000127623",
+				"companyName": "安联财险",
+				"planName": "计划一",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "综合意外险",
+				"caseCode": "QX000000002356",
+				"companyName": "泰康在线",
+				"planName": "计划三",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "易安个人账户资金安全保险",
+				"caseCode": "QX000000002137",
+				"companyName": "易安保险",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2008,
+				"secondCategory": 2034
+			},
+			{
+				"prodName": "平安e生保plus",
+				"caseCode": "QX000000127254",
+				"companyName": "平安健康",
+				"planName": "计划四",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "月月e保百万医疗保险",
+				"caseCode": "QX000000127784",
+				"companyName": "易安保险",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "祯爱优选定期寿险",
+				"caseCode": "QX000000127694",
+				"companyName": "中信保诚人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2006,
+				"secondCategory": 2029
+			},
+			{
+				"prodName": "“定心丸”乐享一生百万医疗险",
+				"caseCode": "QX000000127150",
+				"companyName": "复星联合健康保险",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "康惠保旗舰版重大疾病保险",
+				"caseCode": "QX000000127786",
+				"companyName": "百年人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "金钟罩定期寿险",
+				"caseCode": "QX000000101400",
+				"companyName": "复星保德信",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2006,
+				"secondCategory": 2029
+			},
+			{
+				"prodName": "慧馨安少儿定期重大疾病保险-2018版Plus",
+				"caseCode": "QX000000002735",
+				"companyName": "和谐健康",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "一见倾星重大疾病保险",
+				"caseCode": "QX000000127945",
+				"companyName": "复星联合健康保险",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "瑞和定期寿险",
+				"caseCode": "QX000321123303",
+				"companyName": "瑞泰人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2006,
+				"secondCategory": 2029
+			},
+			{
+				"prodName": "大金刚全年综合意外保险",
+				"caseCode": "QX000000127127",
+				"companyName": "上海人寿",
+				"planName": "经典款",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "小蜜蜂全年综合意外保险",
+				"caseCode": "QX000000127380",
+				"companyName": "上海人寿",
+				"planName": "经典款",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "守卫者1号重大疾病保险",
+				"caseCode": "QX000000127991",
+				"companyName": "百年人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "华安犬类宠物饲养人责任保险",
+				"caseCode": "QX000000000590",
+				"companyName": "华安保险",
+				"planName": "C款",
+				"offShelf": 0,
+				"fristCategory": 2008,
+				"secondCategory": 2034
+			},
+			{
+				"prodName": "住院无忧保障计划（续保版）",
+				"caseCode": "QX000000101324",
+				"companyName": "易安保险",
+				"planName": "高龄尊享计划",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "住院无忧保障计划（续保版）",
+				"caseCode": "QX000000101323",
+				"companyName": "易安保险",
+				"planName": "成人尊享计划",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "平安-手足口疾病险",
+				"caseCode": "QX000000002388",
+				"companyName": "平安财险",
+				"planName": "尊享版",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2026
+			},
+			{
+				"prodName": "大白定期寿险",
+				"caseCode": "QX000000002377",
+				"companyName": "弘康人寿",
+				"planName": "20年交",
+				"offShelf": 0,
+				"fristCategory": 2006,
+				"secondCategory": 2029
+			},
+			{
+				"prodName": "守护e家（夫妻版）定期寿险",
+				"caseCode": "QX000000127864",
+				"companyName": "华贵人寿",
+				"planName": "保期20年",
+				"offShelf": 0,
+				"fristCategory": 2006,
+				"secondCategory": 2029
+			},
+			{
+				"prodName": "臻爱医疗保险（2018版）",
+				"caseCode": "QX000000127379",
+				"companyName": "安联财险",
+				"planName": "卓越计划",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "住院无忧保障计划",
+				"caseCode": "QX000000101315",
+				"companyName": "易安保险",
+				"planName": "高龄优选计划",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "住院无忧保障计划",
+				"caseCode": "QX000000101314",
+				"companyName": "易安保险",
+				"planName": "成人优选计划",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "严重疾病海外保VIP版",
+				"caseCode": "QX000000127979",
+				"companyName": "平安健康",
+				"planName": "有社会医疗保险或公费医疗",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "慧馨安少儿两全保险",
+				"caseCode": "QX000000101391",
+				"companyName": "同方全球人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "大白定期寿险",
+				"caseCode": "QX000000002413",
+				"companyName": "弘康人寿",
+				"planName": "20年交",
+				"offShelf": 0,
+				"fristCategory": 2006,
+				"secondCategory": 2029
+			},
+			{
+				"prodName": "弘利相传终身寿险",
+				"caseCode": "QX000321123274",
+				"companyName": "弘康人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2006,
+				"secondCategory": 2030
+			},
+			{
+				"prodName": "长青树重大疾病保险",
+				"caseCode": "QX000000002718",
+				"companyName": "安邦人寿",
+				"planName": "20年交",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "长青树重大疾病保险",
+				"caseCode": "QX000000100960",
+				"companyName": "安邦人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "华安犬类宠物饲养人责任保险",
+				"caseCode": "QX000000000564",
+				"companyName": "华安保险",
+				"planName": "A款",
+				"offShelf": 0,
+				"fristCategory": 2008,
+				"secondCategory": 2034
+			},
+			{
+				"prodName": "臻爱医疗保险（2018版）",
+				"caseCode": "QX000000127374",
+				"companyName": "安联财险",
+				"planName": "基本计划",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "住院无忧保障计划",
+				"caseCode": "QX000000101316",
+				"companyName": "易安保险",
+				"planName": "成人尊享计划",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "盖世英雄男性专属重大疾病保险",
+				"caseCode": "QX000000127431",
+				"companyName": "国华人寿",
+				"planName": "计划三",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "“守护者”疫苗无忧险",
+				"caseCode": "QX000000127629",
+				"companyName": "易安保险",
+				"planName": "方案一",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2026
+			},
+			{
+				"prodName": "乐安康终身重大疾病保险",
+				"caseCode": "QX000321123249",
+				"companyName": "泰康人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "“学习无忧”疾病医疗学平险",
+				"caseCode": "QX000000001901",
+				"companyName": "太平洋产险",
+				"planName": "计划三",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "盖世英雄男性专属重大疾病保险",
+				"caseCode": "QX000000127430",
+				"companyName": "国华人寿",
+				"planName": "计划二",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "康健一生多倍保终身重大疾病保险",
+				"caseCode": "QX000000002485",
+				"companyName": "同方全球人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "一起慧99-百万医疗险  有门诊计划",
+				"caseCode": "QX000000002627",
+				"companyName": "安心保险",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "成人住院宝（续保版）",
+				"caseCode": "QX000000127949",
+				"companyName": "泰康在线",
+				"planName": "计划二",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "老年住院宝（续保版）",
+				"caseCode": "QX000000127947",
+				"companyName": "泰康在线",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "零零医全能保",
+				"caseCode": "QX000000101460",
+				"companyName": "泰康在线",
+				"planName": "方案四",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "零零医全能保",
+				"caseCode": "QX000000101461",
+				"companyName": "泰康在线",
+				"planName": "方案五",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "少儿住院宝（2018版）",
+				"caseCode": "QX000000127108",
+				"companyName": "泰康在线",
+				"planName": "计划三",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "职业无忧意外险（1-6类）",
+				"caseCode": "QX000000002592",
+				"companyName": "泰康在线",
+				"planName": "方案一",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "横琴优爱宝定期寿险",
+				"caseCode": "QX000000100844",
+				"companyName": "横琴人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2006,
+				"secondCategory": 2029
+			},
+			{
+				"prodName": "平安i无忧医疗保险",
+				"caseCode": "QX000000128041",
+				"companyName": "平安人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "老年住院宝（2018版）",
+				"caseCode": "QX000000127112",
+				"companyName": "泰康在线",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "“年年无忧”综合意外险",
+				"caseCode": "QX000000002526",
+				"companyName": "华泰财险",
+				"planName": "白金计划",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "人保公共交通工具意外险",
+				"caseCode": "QX000000001616",
+				"companyName": "人保寿险",
+				"planName": "基础计划",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2016
+			},
+			{
+				"prodName": "账户保个人账户资金安全险",
+				"caseCode": "QX000000002133",
+				"companyName": "华安保险",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2008,
+				"secondCategory": 2034
+			},
+			{
+				"prodName": "大白定期寿险",
+				"caseCode": "QX000000002414",
+				"companyName": "弘康人寿",
+				"planName": "30年交",
+				"offShelf": 0,
+				"fristCategory": 2006,
+				"secondCategory": 2029
+			},
+			{
+				"prodName": "小安定期寿险",
+				"caseCode": "QX000000128040",
+				"companyName": "平安人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2006,
+				"secondCategory": 2029
+			},
+			{
+				"prodName": "“定心丸”乐享一生5年期百万医疗（家庭计划）",
+				"caseCode": "QX000000127536",
+				"companyName": "复星联合健康保险",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "苏黎世中国“百万人生”人身意外伤害保险",
+				"caseCode": "QX000000001918",
+				"companyName": "苏黎世产险",
+				"planName": "计划D",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "“安心无忧”意外保障计划",
+				"caseCode": "QX000000002608",
+				"companyName": "亚太保险",
+				"planName": "豪华款",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "人保公共交通工具意外险",
+				"caseCode": "QX000000001617",
+				"companyName": "人保寿险",
+				"planName": "尊享计划",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2016
+			},
+			{
+				"prodName": "少儿住院宝（2018版）",
+				"caseCode": "QX000000127107",
+				"companyName": "泰康在线",
+				"planName": "计划二",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "大金刚全年综合意外保障计划",
+				"caseCode": "QX000000127130",
+				"companyName": "上海人寿",
+				"planName": "经典款",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "康乐一生重大疾病保险B款（含身故）",
+				"caseCode": "QX000000127189",
+				"companyName": "复星联合健康保险",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "一起慧99-百万医疗保险 无门诊计划",
+				"caseCode": "QX000000002609",
+				"companyName": "安心保险",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "苏黎世中国“百万人生”人身意外伤害保险",
+				"caseCode": "QX000000001915",
+				"companyName": "苏黎世产险",
+				"planName": "计划A",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "大金刚全年综合意外保险",
+				"caseCode": "QX000000127128",
+				"companyName": "上海人寿",
+				"planName": "典藏款",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "安心保少儿疾病住院医疗保障",
+				"caseCode": "QX000000001905",
+				"companyName": "太平洋产险",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "百年定惠保定期寿险",
+				"caseCode": "QX000000127484",
+				"companyName": "百年人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2006,
+				"secondCategory": 2029
+			},
+			{
+				"prodName": "少儿住院宝（2018版）",
+				"caseCode": "QX000000127106",
+				"companyName": "泰康在线",
+				"planName": "计划一",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "王者医疗",
+				"caseCode": "QX000000127418",
+				"companyName": "易安保险",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "安享一生防癌医疗险",
+				"caseCode": "QX000000127247",
+				"companyName": "安心保险",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "借款人意外险",
+				"caseCode": "QX000000101090",
+				"companyName": "利宝保险",
+				"planName": "计划一",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "达尔文1号重大疾病保险",
+				"caseCode": "QX000000127616",
+				"companyName": "复星联合健康保险",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "大金刚全年综合意外保险",
+				"caseCode": "QX000000127129",
+				"companyName": "上海人寿",
+				"planName": "尊享款",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "小蜜蜂全年综合意外保险",
+				"caseCode": "QX000000127381",
+				"companyName": "上海人寿",
+				"planName": "典藏款",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "综合意外险",
+				"caseCode": "QX000000002347",
+				"companyName": "泰康在线",
+				"planName": "计划一",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "少儿门诊暖宝保",
+				"caseCode": "QX000000127367",
+				"companyName": "华泰财险",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "乐安康终身重大疾病保险",
+				"caseCode": "QX000000002543",
+				"companyName": "泰康人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "华安犬类宠物饲养人责任保险",
+				"caseCode": "QX000000000589",
+				"companyName": "华安保险",
+				"planName": "B款",
+				"offShelf": 0,
+				"fristCategory": 2008,
+				"secondCategory": 2034
+			},
+			{
+				"prodName": "臻爱医疗保险（2018版）",
+				"caseCode": "QX000000127378",
+				"companyName": "安联财险",
+				"planName": "尊贵计划",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "臻爱医疗保险（2018版）",
+				"caseCode": "QX000000127376",
+				"companyName": "安联财险",
+				"planName": "升级计划",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "爱康保重大疾病保险",
+				"caseCode": "QX000000002612",
+				"companyName": "长生人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "住院无忧保障计划（续保版）",
+				"caseCode": "QX000000101322",
+				"companyName": "易安保险",
+				"planName": "高龄优选计划",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "住院无忧保障计划（续保版）",
+				"caseCode": "QX000000101321",
+				"companyName": "易安保险",
+				"planName": "成人优选计划",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "“守护者”疫苗无忧险",
+				"caseCode": "QX000000127630",
+				"companyName": "易安保险",
+				"planName": "方案二",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2026
+			},
+			{
+				"prodName": "平安-手足口疾病险",
+				"caseCode": "QX000000002387",
+				"companyName": "平安财险",
+				"planName": "经典版",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2026
+			},
+			{
+				"prodName": "守护e家（夫妻版）定期寿险",
+				"caseCode": "QX000000127842",
+				"companyName": "华贵人寿",
+				"planName": "保期10年",
+				"offShelf": 0,
+				"fristCategory": 2006,
+				"secondCategory": 2029
+			},
+			{
+				"prodName": "严重疾病海外保",
+				"caseCode": "QX000000127976",
+				"companyName": "平安健康",
+				"planName": "无社会医疗保险或公费医疗",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "严重疾病海外保",
+				"caseCode": "QX000000127975",
+				"companyName": "平安健康",
+				"planName": "有社会医疗保险或公费医疗",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "长青树重大疾病保险",
+				"caseCode": "QX000000002715",
+				"companyName": "安邦人寿",
+				"planName": "5年交",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "长青树重大疾病保险",
+				"caseCode": "QX000000002716",
+				"companyName": "安邦人寿",
+				"planName": "10年交",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "大白定期寿险",
+				"caseCode": "QX000000002515",
+				"companyName": "弘康人寿",
+				"planName": "10年交",
+				"offShelf": 0,
+				"fristCategory": 2006,
+				"secondCategory": 2029
+			},
+			{
+				"prodName": "美亚“万国游踪”境外旅行保障计划 –  全球版",
+				"caseCode": "QX000000002654",
+				"companyName": "美亚保险",
+				"planName": "全球完美计划",
+				"offShelf": 0,
+				"fristCategory": 2001,
+				"secondCategory": 2020
+			},
+			{
+				"prodName": "安心住院万元保2018",
+				"caseCode": "QX000000127734",
+				"companyName": "安心保险",
+				"planName": "方案二",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "紫霞保女性专属重大疾病保险",
+				"caseCode": "QX000000127426",
+				"companyName": "国华人寿",
+				"planName": "计划三",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "臻爱医疗保险（2018版）",
+				"caseCode": "QX000000127377",
+				"companyName": "安联财险",
+				"planName": "优选计划",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "盖世英雄男性专属重大疾病保险",
+				"caseCode": "QX000000127433",
+				"companyName": "国华人寿",
+				"planName": "计划五",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "康健一生多倍保终身重大疾病保险",
+				"caseCode": "QX000321123250",
+				"companyName": "同方全球人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "“安心无忧”意外保障计划",
+				"caseCode": "QX000000002606",
+				"companyName": "亚太保险",
+				"planName": "基础款",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "成人住院宝（2018版）",
+				"caseCode": "QX000000127111",
+				"companyName": "泰康在线",
+				"planName": "计划三",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "成人住院宝（2018版）",
+				"caseCode": "QX000000127110",
+				"companyName": "泰康在线",
+				"planName": "计划二",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "大金刚全年综合意外保障计划",
+				"caseCode": "QX000000127131",
+				"companyName": "上海人寿",
+				"planName": "典藏款",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "零零医全能保",
+				"caseCode": "QX000000101459",
+				"companyName": "泰康在线",
+				"planName": "方案三",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "紫霞保女性专属重大疾病保险",
+				"caseCode": "QX000000127427",
+				"companyName": "国华人寿",
+				"planName": "计划四",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "鑫年华年金保障计划",
+				"caseCode": "QX000000127249",
+				"companyName": "工银安盛人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2006,
+				"secondCategory": 2032
+			},
+			{
+				"prodName": "安心住院万元保2018",
+				"caseCode": "QX000000127735",
+				"companyName": "安心保险",
+				"planName": "方案三",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "“安心无忧”意外保障计划",
+				"caseCode": "QX000000002607",
+				"companyName": "亚太保险",
+				"planName": "尊享款",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "职业无忧意外险（1-6类）",
+				"caseCode": "QX000000002593",
+				"companyName": "泰康在线",
+				"planName": "方案二",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "平安-儿童走失险",
+				"caseCode": "QX000000002645",
+				"companyName": "平安财险",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2008,
+				"secondCategory": 2034
+			},
+			{
+				"prodName": "（至尊保）重大疾病保险",
+				"caseCode": "QX000000100834",
+				"companyName": "国华人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "职业无忧意外险（1-6类）",
+				"caseCode": "QX000000002594",
+				"companyName": "泰康在线",
+				"planName": "方案三",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "百万玫瑰意外保障计划",
+				"caseCode": "QX000000127343",
+				"companyName": "安联财险",
+				"planName": "计划二",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "长生福重大疾病保险",
+				"caseCode": "QX000000127493",
+				"companyName": "长生人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "健康一生重大疾病保险A款",
+				"caseCode": "QX000321123259",
+				"companyName": "弘康人寿",
+				"planName": "附加轻症B款疾病保险",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "信美相互三叶草疾病保障计划",
+				"caseCode": "QX000000127835",
+				"companyName": "信美相互",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "大黄蜂少儿重疾险2018",
+				"caseCode": "QX000000127854",
+				"companyName": "和谐健康",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "安心住院万元保2018",
+				"caseCode": "QX000000127733",
+				"companyName": "安心保险",
+				"planName": "方案一",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "百年康惠保重大疾病保险",
+				"caseCode": "QX000000002726",
+				"companyName": "百年人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "美亚“万国游踪”境外旅行保障计划 –  全球版",
+				"caseCode": "QX000000002652",
+				"companyName": "美亚保险",
+				"planName": "全球无忧计划",
+				"offShelf": 0,
+				"fristCategory": 2001,
+				"secondCategory": 2020
+			},
+			{
+				"prodName": "平安e生保plus",
+				"caseCode": "QX000000127253",
+				"companyName": "平安健康",
+				"planName": "计划三",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2028
+			},
+			{
+				"prodName": "哆啦A保重大疾病保险",
+				"caseCode": "QX000000002766",
+				"companyName": "弘康人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "瑞泰瑞盈重大疾病保险",
+				"caseCode": "QX000000127509",
+				"companyName": "瑞泰人寿",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "康乐一生重大疾病保险C款（不含身故）",
+				"caseCode": "QX000000127099",
+				"companyName": "复星联合健康保险",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2002,
+				"secondCategory": 2027
+			},
+			{
+				"prodName": "安意保50万综合意外保障计划",
+				"caseCode": "QX000000002659",
+				"companyName": "安心保险",
+				"planName": "",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			},
+			{
+				"prodName": "小蜜蜂全年综合意外保险",
+				"caseCode": "QX000000127382",
+				"companyName": "上海人寿",
+				"planName": "尊享款",
+				"offShelf": 0,
+				"fristCategory": 2000,
+				"secondCategory": 2018
+			}
+		]
+	}
+}

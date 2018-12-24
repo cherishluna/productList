@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>投保</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <style type="text/css">
+        *{margin: 0;padding: 0;list-style: none;text-decoration: none;font-size: 14px;color: #333;}
+        [v-clock] { display: none;}
+        .title{background-color: #00a8f7;color: #fff;line-height: 50px;text-align: center;font-size: 18px;}
+        #j_form{padding: 10px;}
+        #j_form h3{font-size: 16px;}
+        #j_form div{padding: 10px 0;}
+        #j_form input{border: solid 1px #ccc;outline: none;line-height: 24px;}
+    </style>
+</head>
+<body>
+    <div id="insured" v-clock>
+        <div class="title">填写投保信息</div>
+        <form id="j_form"></form>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/vue.min.js"></script>
+    <script>
+        var vm = new Vue({
+            el: '#insured',
+            data: {
+                attrModules: {}
+            },
+            created: function () {
+                this.init();
+            },
+            methods: {
+                init: function(){
+                    $.getJSON('json/productInsuredAttr.json', function(res){
+                        vm.attrModules = res.data.insureAttribute.attrModules;
+                        console.log(vm.attrModules);
+                        for (let i = 0; i < vm.attrModules.length; i++) {
+                            $('#j_form').append('<h3>'+vm.attrModules[i].name+'</h3>');
+                            if (typeof (vm.attrModules[i].productAttributes) !== 'undefined' && vm.attrModules[i].productAttributes.length > 0) {
+                                let attrs = vm.attrModules[i].productAttributes;
+                                for (let j = 0; j < attrs.length; j++) {
+                                    switch (attrs[j].type) {
+                                        // 输入框
+                                        case 3:
+                                            $('#j_form').append('<div><label>'+attrs[j].name+'</label><input type="text" name="'+attrs[j].apiName+'" data-moduleId="'+i+'" data-attr="'+j+'" /></div>');
+                                            break;
+                                    }
+                                }
+                            }
+                        }
+                        vm.eventListener();
+                    });
+                },
+                eventListener: function(){
+                    $('input').focus(function(){
+                        let i = $(this).attr('data-moduleId');
+                        let j = $(this).attr('data-attr');
+                        let attr = vm.attrModules[i].productAttributes[j];
+                        if ($(this).parent().find('.u-notice').length > 0) {
+                            $(this).next().html(attr.defaultRemind);
+                        } else {
+                            $(this).after('<span class="u-notice">'+attr.defaultRemind+'</span>');
+                        }
+                    });
+                    
+                    $('input').blur(function(){
+                        let i = $(this).attr('data-moduleId');
+                        let j = $(this).attr('data-attr');
+                        let attr = vm.attrModules[i].productAttributes[j];
+                        console.log(attr.regex);
+                        if (!/attr.regex/.test($(this).val())) {
+                            $(this).next().html(attr.errorRemind);
+                        } else {
+                            $(this).next().html('');
+                        }
+                    });
+                }
+            }
+        });
+    </script>
+</body>
+</html>
