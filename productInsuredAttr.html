@@ -41,7 +41,18 @@
                             if (typeof (vm.attrModules[i].productAttributes) !== 'undefined' && vm.attrModules[i].productAttributes.length > 0) {
                                 let attrs = vm.attrModules[i].productAttributes;
                                 for (let j = 0; j < attrs.length; j++) {
+                                    let attrValues = attrs[j].attributeValues;
+                                    let html = '';
                                     switch (attrs[j].type) {
+                                        // 下拉框
+                                        case 0:
+                                            html += '<div><label>'+attrs[j].name+'</label><select name="'+attrs[j].apiName+'" data-moduleId="'+i+'" data-attr="'+j+'">';
+                                            for (let k = 0; k < attrValues.length; k++) {
+                                                html += '<option value="'+attrValues[k].value+'">'+attrValues[k].value+'</option>';
+                                            }
+                                            html += '</select></div>';
+                                            $('#j_form').append(html);
+                                            break;
                                         // 输入框
                                         case 3:
                                             $('#j_form').append('<div><label>'+attrs[j].name+'</label><input type="text" name="'+attrs[j].apiName+'" data-moduleId="'+i+'" data-attr="'+j+'" /></div>');
